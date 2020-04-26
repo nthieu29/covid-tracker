@@ -3,10 +3,6 @@ import {CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XA
 
 
 class CountryDetailLineChart extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     convertLineChartData(timelineData) {
         let lineData = timelineData.filter(entry => entry.infected + entry.recovered + entry.dead > 0);
         if (lineData.length === 0) {

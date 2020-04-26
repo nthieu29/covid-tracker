@@ -10,7 +10,7 @@ import LocalHospitalIcon from '@material-ui/icons/LocalHospital';
 import {green, orange, red} from "@material-ui/core/colors";
 import CountUp from "react-countup";
 
-const styles = theme => ({
+const styles = () => ({
     root: {
         display: 'flex',
         flexGrow: 1
@@ -18,10 +18,6 @@ const styles = theme => ({
 });
 
 class CardInfo extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const {classes} = this.props;
         return (

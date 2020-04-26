@@ -2,14 +2,10 @@ import React, {Component} from 'react';
 import {Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip} from "recharts";
 
 class CountryDetailPieChart extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     extractDataForPieChart(timelineData) {
         let latestData = timelineData[timelineData.length - 1];
         if (!latestData) latestData = {};
-        let pieData = [
+        return [
             {
                 "name": "Active",
                 "value": latestData.infected - latestData.recovered - latestData.dead
@@ -23,7 +19,6 @@ class CountryDetailPieChart extends Component {
                 "value": latestData.dead
             }
         ];
-        return pieData;
     }
 
     render() {
