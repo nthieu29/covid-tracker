@@ -1,7 +1,7 @@
 # covid-tracker
 Track COVID-19 local and global coronavirus cases with active, recoveries and death in a simple, elegant UI.
 
-Live demo: https://master.d17fr9nv7izdex.amplifyapp.com/
+Live demo on [AWS Amplify](https://aws.amazon.com/amplify/): https://master.d17fr9nv7izdex.amplifyapp.com/
 
 ## Features
 * Simple and elegant user interface.
