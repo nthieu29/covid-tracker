@@ -22,7 +22,6 @@ class CountryDetail extends Component {
     }
 
     loadDetail(countrySlug) {
-        console.log("Country slug: " + countrySlug);
         API.get("/total/country/" + countrySlug).then(response => {
             const timelineData = response.data.map(countryEntry => {
                 return {
