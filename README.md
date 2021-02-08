@@ -2,7 +2,6 @@
 Track COVID-19 local and global coronavirus cases with active, recoveries and death in a simple, elegant UI.
 
 Live demo on:
-- AWS Amplify: https://master.d17fr9nv7izdex.amplifyapp.com/
 - Azure Static Web Apps: https://icy-tree-000e06200.azurestaticapps.net/
 
 ## Features
